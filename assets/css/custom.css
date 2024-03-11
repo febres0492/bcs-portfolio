@@ -1,5 +1,3 @@
-@import url(/assets/css/general.css);
-
 :root {
     --px:10px;
     --blue-bg: hsl(235,85%,10%,.5)
@@ -71,6 +69,7 @@ nav{
     background-image: url('/assets/images/img-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     position: relative;
     color: white;
 }
