@@ -68,7 +68,7 @@ nav{
 /* hero section */
 #hero {
     min-height: 100vh;
-    background-image: url('../images/img-1.jpg');
+    background-image: url(../images/img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -106,7 +106,7 @@ nav{
     --xy: 16;
     -moz-box-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 green,calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px green;
     -moz-box-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 var(--c1),calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px var(--c2);
-    background-image: url(/assets/images/profile-img.jpg);
+    background-image: url(../images/profile-img.jpg);
     box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*1px) calc(var(--xy)*1px) 0 0 green,calc(var(--xy)*2px) calc(var(--xy)*2px) 8px 1px green;
     box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*1px) calc(var(--xy)*1px) 0 0 var(--c1),calc(var(--xy)*2px) calc(var(--xy)*2px) 8px 1px var(--c2);
     -webkit-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 green,calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px green;
