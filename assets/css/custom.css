@@ -15,7 +15,7 @@ body {
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 
-/* global */
+/* global --------------------------------------------------------------------------------- */
 ul { list-style-type: none; }
 a {
     text-decoration: none;
@@ -39,8 +39,16 @@ a {
     -webkit-background-clip: text;
     background-size: cover;
 }
+.gradient-2 {
+    background: #5d6063;
+    background: linear-gradient(316deg,#141516,#373e46 51%,#1f2730);
+}
+.title-1 {
+    position:relative;
+    left: -4px;
+}
 
-/* header */
+/* header --------------------------------------------------------------------------------- */
 header {
     width:100%;
     position: fixed;
@@ -65,15 +73,17 @@ nav{
     }
 }
 
-/* hero section */
+/* hero section -------------------------------------------------------------------- */
 #hero {
-    min-height: 100vh;
+    min-height: 10vh;
+    height: fit-content;
     background-image: url(../images/img-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     position: relative;
     color: white;
+    padding-block: 80px;
 }
 #hero > div {
     z-index: 10;
@@ -99,24 +109,70 @@ nav{
     -webkit-backdrop-filter: blur(calc(var(--blur)*1px));
     background: var(--blue-bg);
 }
+#hero h2 {
+    font-weight: 500;
+}
+#hero h3 {
+    font-weight: 300;
+}
+#hero h3 span{
+    font-family: cursive;
+}
 
-.avatar-1 {
+.wm-vlr {
+    -webkit-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
     --c1: rgba(148,186,223,.3);
     --c2: rgba(51,71,99,.7);
     --xy: 16;
     -moz-box-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 green,calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px green;
     -moz-box-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 var(--c1),calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px var(--c2);
-    background-image: url(../images/profile-img.jpg);
     box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*1px) calc(var(--xy)*1px) 0 0 green,calc(var(--xy)*2px) calc(var(--xy)*2px) 8px 1px green;
     box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*1px) calc(var(--xy)*1px) 0 0 var(--c1),calc(var(--xy)*2px) calc(var(--xy)*2px) 8px 1px var(--c2);
     -webkit-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 green,calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px green;
     -webkit-box-shadow: 0 0 0 1px hsla(0,0%,54%,.75),calc(var(--xy)*-1px) calc(var(--xy)*-1px) 0 0 var(--c1),calc(var(--xy)*-2px) calc(var(--xy)*-2px) 8px 1px var(--c2);
 }
 
-#profile-div span{
+#profile-div {
+    height: min-content;
+}
+
+#profile-div span {
     -webkit-writing-mode: vertical-lr;
     writing-mode: vertical-lr;
     font-weight: 700;
     top: .1em;
     right: -.75em;
+}
+
+/* project section ----------------------------------------------------------------- */
+
+#project-box {
+    width: 100%;
+    color: #ffffff;
+    background-color: rgb(0,20,50, .3);
+}
+
+.project-item {
+    width: 200px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.project-item img{
+    aspect-ratio: 1;
+    padding: 0;
+    margin: 0;
+}
+.project-item .label {
+    display: block;
+    width: 100%;
+    padding:10px;
+    margin-top: -5px;
 }

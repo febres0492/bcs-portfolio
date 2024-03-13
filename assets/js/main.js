@@ -3,6 +3,6 @@ function $ (str){
     else { return document.querySelectorAll(str) }
 }
 
-$('#nav-menu-btn').addEventListener('click', (ev)=>{
+$('#nav-menu-btn').addEventListener('click', ()=>{
     $('nav ul')[0].classList.toggle('showMenu')
 })

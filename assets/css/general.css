@@ -15,6 +15,7 @@
 
 body{overflow-x: hidden;}
 span{display: inline-block;}
+img {max-width: 100%;}
 
 .ani{ transition: all .15s ease-in-out ; }
 .ani-2{ transition: all .5s ease-in-out ; }
@@ -63,15 +64,15 @@ span{display: inline-block;}
     background-repeat: no-repeat;
 }
 
-h1,.h1 {font-size:calc(2em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-h2,.h2 {font-size:calc(1.5em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-h3,.h3 {font-size:calc(1.17em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-h4,.h4 {font-size:calc(1em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-h5,.h5 {font-size:calc(.83em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-h6,.h6 {font-size:calc(.67em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
-p, span, a, button, li {font-size:calc( 1em + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h1,.h1 {font-size:calc(2rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h2,.h2 {font-size:calc(1.5rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h3,.h3 {font-size:calc(1.17rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h4,.h4 {font-size:calc(1rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h5,.h5 {font-size:calc(.83rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+h6,.h6 {font-size:calc(.67rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
+p, span, a, button, li {font-size:calc( 1rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
 
-.rel, .rel > * { position: relative;} 
+.rel { position: relative;} 
 .abs {position: absolute;}
 .overflow-hidden {overflow: hidden;}
 .d-inline { display: inline; }
