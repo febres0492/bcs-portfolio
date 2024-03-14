@@ -64,6 +64,10 @@ img {max-width: 100%;}
     background-repeat: no-repeat;
 }
 
+.tal {text-align: left;}
+.tac {text-align: center;}
+.tar {text-align: right;}
+
 h1,.h1 {font-size:calc(2rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
 h2,.h2 {font-size:calc(1.5rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
 h3,.h3 {font-size:calc(1.17rem + min(var(--max-fvw), calc(var(--fvw) * 1vw)));}
