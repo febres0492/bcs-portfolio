@@ -6,3 +6,7 @@ function $ (str){
 $('#nav-menu-btn').addEventListener('click', ()=>{
     $('nav ul')[0].classList.toggle('showMenu')
 })
+
+$('#project-box').addEventListener('click',(ev)=>{
+    console.log(ev.target)
+})
