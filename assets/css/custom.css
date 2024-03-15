@@ -198,12 +198,6 @@ nav li:hover {
 
 /* about section ----------------------------------------------------------------- */
 
-.fw-5 {
-    font-weight: 500;
-}
-.fw-7 {
-    font-weight: 700;
-}
 .text-dark {
     color: #666666;
 }
@@ -214,4 +208,54 @@ nav li:hover {
 
 #about h2 {
     margin-right: auto;
+}
+
+.gradient-1 {
+    background: #020022;
+    background: linear-gradient(130deg,#020022,#103788 34%,#00bde3);
+}
+
+/* skill-list-div -------------------------------- */
+#skill-list-div {
+    padding: 24px;
+    border-radius: .4em;
+    color: hsl(0,0%,90%);
+}
+
+#skill-list-div h2 {
+    position: relative;
+    font-weight: bold;
+    width: 100%;
+}
+
+#skill-list-div hr {
+    width: 100%; 
+    margin: 12px; 
+    border: none;
+    border-top: 1px solid #808080;
+}
+
+#skill-list-div h2 .bullet {
+    position: absolute;
+    top: 28%;
+    left: -3px;
+    height: 1em; 
+    width: 7px; 
+    border-radius: 3px;
+}
+#skill-list-div h2 .span-title {
+    padding-left: 12px;
+}
+
+#skill-list-div a {
+    margin-left: .7em; 
+}
+
+#skill-list-div p {
+    line-height: 1em; 
+    padding: 8px 12px;
+    border-radius: .25em; 
+    color: #ffffff; 
+    background: hsl(210,30%,30%);
+    white-space: nowrap;
 }

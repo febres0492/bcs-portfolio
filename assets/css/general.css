@@ -44,6 +44,7 @@ img {max-width: 100%;}
 
 .fg{flex-grow: 1;}
 .fs {flex-shrink: 1;}
+.aifs {align-items: flex-start;}
 .ais {align-items: stretch;}
 .aic {align-items: center;}
 .acfs {align-content: flex-start;}

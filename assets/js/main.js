@@ -1,3 +1,4 @@
+// element selector function
 function $ (str){
     if (str[0] ==='#'){ return document.querySelector(str) }
     else { return document.querySelectorAll(str) }
