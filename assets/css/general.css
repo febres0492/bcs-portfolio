@@ -45,9 +45,11 @@ img {max-width: 100%;}
 .fg{flex-grow: 1;}
 .fs {flex-shrink: 1;}
 .aifs {align-items: flex-start;}
+.aife {align-items: flex-end;}
 .ais {align-items: stretch;}
 .aic {align-items: center;}
 .acfs {align-content: flex-start;}
+.acfe {align-content: flex-end;}
 .acc {align-content: center;}
 
 .dib{display: inline-block;}

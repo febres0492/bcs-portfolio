@@ -16,16 +16,16 @@
                 menu
             </span>
             <ul class="df h4 d-none d-md-flex">
-                <li><a href="#hero">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hero-section">Home</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- end of  header -->
     <!-- beginning of hero section -->
-    <section id="hero" class="df rel">
+    <section id="hero-section" class="df rel">
         <div class="container" style="--mt:14;">
             <div class="row">
                 <div class="acc jcc md-jcfs" style="--col-md:6; --mb:14; --g:5px;">
@@ -51,7 +51,7 @@
     </section>
     <!-- end of hero section -->
     <!-- beginning of projects section -->
-    <section id="projects" style="--py: 17; --px-md: 8;">
+    <section id="projects-section" style="--py: 17; --px-md: 8;">
         <div class="container" style="--px:5;">
             <div class="row">
                 <div style="--col:12;">
@@ -88,7 +88,7 @@
     </section>
     <!-- end of projects section -->
     <!-- beginning of about section -->
-    <section id="about" style="--py: 17; --px-md: 8;">
+    <section id="about-section" style="--py: 17; --px-md: 8;">
         <div class="container" style="--px:5;">
             <div class="row">
                 <div class="tal flex-column" style="--col-lg:7;  --mb:10; --pr-md:6;">
@@ -176,6 +176,33 @@
         </div>
     </section>
     <!-- end of about section -->
+    <!-- beginning of contact section -->
+    <section id="contact-section" class="df">
+        <div id="mask" style="--blur: 8;"></div>
+        <div class="container df flex-column" style="--pt: 10; --pb: 20;"> 
+            <div class="df jcc flex-column">
+                <h1 style="--fvw: 7;">CJF</h1>
+            </div>
+            <div class="box df flex-column" style=" --blur: 10;">
+                <div class="df jcc">
+                    <h2 class="nowrap gradient-clip-light" style="--fvw: 1.5;">GET IN CONTACT</h2>
+                    <form id="contactForm" class="h3" style="--fvw:1;" >
+                        <div class="mb-1">
+                            <label for="inputName">Name</label>
+                            <input class="formInput h5" type="name" id="inputName">
+                            <label for="inputEmail">Email address</label>
+                            <input type="email" class="formInput h5"  id="inputEmail">
+                        </div>
+                        <div class="">
+                            <label for="input-message">Message</label>
+                            <textarea class="formInput h5" name=" message" type="text" id="input-message" style="--fs: .6em; --minh: 80px; --bd: none; --mb: 4; --c: lightgray; --bg: hsl(219,19%,37%,.5); --focus-bg: hsl(219,19%,37%); --focus-c: lightgray;"></textarea>
+                            <button type="submit" class="btn ani gradient-1">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <script src="./assets/js/main.js"></script>
 </html>
