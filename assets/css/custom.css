@@ -160,7 +160,8 @@ nav li:hover {
     writing-mode: vertical-lr;
     font-weight: 700;
     top: .1em;
-    right: -.75em;
+    right: -.6em;
+    line-height: 1em;
 }
 
 /* project section ----------------------------------------------------------------- */
