@@ -47,6 +47,7 @@ hr {width: 100%;}
     left: -4px;
 }
 
+
 /* header --------------------------------------------------------------------------------- */
 header {
     width:100%;
@@ -67,6 +68,7 @@ nav a {
 nav li:hover {
     background-color:#acacac70;
 }
+
 
 @media(max-width:768px) {
     /* class used with javascript */
