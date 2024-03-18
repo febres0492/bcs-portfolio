@@ -56,8 +56,6 @@ img {max-width: 100%;}
 .acfe {align-content: flex-end;}
 .acc {align-content: center;}
 
-.dib{display: inline-block;}
-
 .translate-center{
     translate: -50% -50%;
 }
@@ -87,7 +85,7 @@ p, span, a, button, li {font-size:calc( 1rem + min(var(--max-fvw), calc(var(--fv
 .abs {position: absolute;}
 .overflow-hidden {overflow: hidden;}
 .d-inline { display: inline; }
-.d-inline-block { display: inline-block; }
+.d-inline-block, .dib { display: inline-block; }
 .d-block { display: block; }
 .d-grid { display: grid; }
 .d-table { display: table; }

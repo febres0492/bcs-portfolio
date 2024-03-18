@@ -211,6 +211,14 @@ nav li:hover {
     z-index: 20;
 }
 
+.show-image-viewer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+}
+
 #image-viewer > .df {
     width: 100%;
 }
@@ -229,6 +237,10 @@ nav li:hover {
 }
 #image-viewer button:hover {
     background: rgb(255, 255, 255, 0.4);
+}
+
+path {
+    fill: #ffffff;
 }
 
 /* about section ----------------------------------------------------------------- */
