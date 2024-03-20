@@ -211,6 +211,10 @@ nav li:hover {
     z-index: 20;
 }
 
+#image-viewer-title {
+    --fvw:.5;
+}
+
 .show-image-viewer {
     display: flex;
     flex-direction: column;
