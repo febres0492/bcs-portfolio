@@ -286,6 +286,7 @@ nav li:hover {
 }
 
 #skill-list-div hr {
+    margin-top: 28px !important;
     width: 100%; 
     margin: 12px; 
     border: none;
@@ -308,7 +309,7 @@ nav li:hover {
     margin-left: .7em; 
 }
 
-#skill-list-div p {
+#skill-list-div p, .item-box {
     line-height: 1em; 
     padding: 8px 12px;
     border-radius: .25em; 
