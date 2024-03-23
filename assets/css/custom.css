@@ -189,9 +189,8 @@ nav li:hover {
     transform: scale(1.05) !important;
 }
 
-.project-item img{
+.project-item img {
     width: 100%;
-    aspect-ratio: 1;
     padding: 0;
     margin: 0;
 }

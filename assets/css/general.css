@@ -1,3 +1,12 @@
+/*
+This CSS contains styling rules that I have developed and adapted for use in my projects. 
+While I may have incorporated some elements from Bootstrap, the code has been customized 
+to fit my needs, making it distinctly my own. The naming conventions might echo those 
+found in Bootstrap or Tailwind, but this body of work represents my personal 
+contribution to my projects.
+*/
+
+
 :root {
     --col: 12;
     --bd-w: 1px;
