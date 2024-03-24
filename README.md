@@ -2,6 +2,10 @@
 
 Welcome to the GitHub repository for my portfolio website. I'm Carlos Febres, a passionate Web Developer dedicated to crafting dynamic and responsive websites from scratch. From the initial concept and layout to the final design, I embrace every step of the development process. 
 
+### Preview
+![preview of Carlos Febre's portfolio](./assets/images/portfolio-preview.png)
+
+
 ### Link
 https://febres0492.github.io/bcs-portfolio/
 
