@@ -14,7 +14,7 @@
         <nav>
             <span id="nav-menu-btn" class="d-md-none" >
                 <svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 -960 960 960" width="30">
-                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                    <path fill="#ffffff" d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
                 </svg>
             </span>
             <ul class="df h4 d-none d-md-flex">
@@ -56,6 +56,7 @@
     <section id="about-section" style="--py: 17; --pt-md:30; --px-md: 8;">
         <div class="container" style="--px:5;">
             <div class="row">
+                <!-- About Me Description Column -->
                 <div class="tal flex-column" style="--col-lg:7;  --mb:10; --pr-md:6;">
                     <h1 class="title-1 nowrap gradient-clip-light" style="--fvw: 2;">About Me</h1>
                     <p class="text-dark fw-7" style="--fvw:.5; --mb:4;">I'm an Web Developer able to build dynamic and responsive websites from the ground up - from concept, and layout, to the final design.</p>
@@ -73,6 +74,7 @@
                     </p>
                 </div>
                 
+                <!-- Skills, Tools, and Location Column -->
                 <div class="acfs" style="--col-lg: 5; --p-md: 0;">
                     <div id="skill-list-div" class="df acfs gradient-2">
                         <h2 style="--fvw:.6;">
@@ -129,6 +131,8 @@
     <section id="projects-section" style="--py: 30; --px-md: 8;">
         <div class="container" style="--px:5;">
             <div class="row">
+
+                <!-- Column for the projects header and project items -->
                 <div style="--col:12;">
                     <h1 class="title-1 nowrap gradient-clip-light" style="--fvw: 2;">Projects</h1>
                     <div id="project-box" class="d-lg-flex jcsb flex-lg-row" style="--p:4;">
@@ -136,18 +140,20 @@
                             <img src="./assets/images/cf-chart-lite.png" name="item 1" alt="portfolio project image" >
                             <span class="label gradient-2">CF Chart Lite</span>
                         </a>
+                        
+                        <!-- Container for additional project items -->
                         <div class="df jcsb" style="--col-lg:3.5; --ch-col-md:3.7; --ch-col-lg:12;">
                             <a href="#" class="project-item" idx="1" project-link="#about-section">
                                 <img src="./assets/images/img-1.jpg" name="item 2" alt="portfolio project image" >
-                                <span class="label gradient-2">Item 2</span>
+                                <span class="label gradient-2">Coming soon</span>
                             </a>
                             <a href="#" class="project-item" idx="2" project-link="#about-section">
                                 <img src="./assets/images/img-1.jpg" name="item 3" alt="portfolio project image" >
-                                <span class="label gradient-2">Item 3</span>
+                                <span class="label gradient-2">Coming soon</span>
                             </a>
                             <a href="#" class="project-item" idx="3" project-link="#about-section">
                                 <img src="./assets/images/img-1.jpg" name="item 4" alt="portfolio project image" >
-                                <span class="label gradient-2">Item 4</span>
+                                <span class="label gradient-2">Coming soon</span>
                             </a>
                         </div>
                     </div>
@@ -157,14 +163,17 @@
     </section>
     <!-- end of projects section -->
     <!-- beginning of contact section -->
-    <section id="contact-section" class="df" style="--py: 30;">
-        <div id="mask" style="--blur: 8;"></div>
+    <section id="contact-section" class="df" style="--py: 10;">
+
+        <!-- Background mask with blur effect -->
+        <div id="mask" style="--blur: 8;"></div> 
+
         <div class="container df flex-column" style="--pt: 10; --pb: 20;"> 
             <div class="df jcc flex-column">
                 <h1 style="--fvw: 7;">CJF</h1>
             </div>
             <div class="box df flex-column" style=" --blur: 10;">
-                <div class="df jcc flex-column">
+                <div class="df jcc">
                     <h2 class="nowrap gradient-clip-light" style="--fvw: 1.5;">GET IN CONTACT</h2>
                     
                     <a href="mailto:febres0492@gmail.com" class="df aic" target="_blank" rel="noreferrer" style="--br: 5px; --p: .7; --p-md: .5; --bd: none; --ml: 3; --bg: var(--c1);">
