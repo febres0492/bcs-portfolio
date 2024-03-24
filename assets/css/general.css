@@ -1,9 +1,8 @@
 /*
-This CSS contains styling rules that I have developed and adapted for use in my projects. 
-While I may have incorporated some elements from Bootstrap, the code has been customized 
-to fit my needs, making it distinctly my own. The naming conventions might echo those 
-found in Bootstrap or Tailwind, but this body of work represents my personal 
-contribution to my projects.
+This CSS employs inline variables for dynamic styling, setting it apart from frameworks like Bootstrap, which does not utilize this approach. 
+Each rule within this stylesheet is tailored specifically for versatile and dynamic projects. 
+While the naming conventions may resemble those found in Bootstrap or Tailwind, the use of inline variables for adaptable designs 
+underscores the originality and uniqueness of my work.
 */
 
 
